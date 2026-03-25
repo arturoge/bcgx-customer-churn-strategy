@@ -7,13 +7,13 @@
 
 ---
 
-## 1. Contexto y Reto de Negocio
+## 🔷 Contexto y Reto de Negocio
 
 PowerCo, una importante empresa proveedora de gas y electricidad para el sector de Pequeñas y Medianas Empresas (PYMES), ha detectado un incremento sostenido en su tasa de abandono de clientes (churn). La hipótesis inicial de la directiva sugiere que la alta volatilidad de los precios es el factor principal que impulsa las cancelaciones. 
 
 El objetivo de este proyecto es auditar dicha hipótesis mediante el análisis exploratorio de datos (EDA), desarrollar un modelo predictivo para identificar a los clientes en riesgo y proponer una estrategia de retención que sea financieramente viable para la compañía.
 
-## 2. Metodología y Herramientas
+## 🔷 Metodología y Herramientas
 
 El proyecto se desarrolló utilizando Python, priorizando un enfoque analítico orientado a la toma de decisiones y la rentabilidad:
 
@@ -22,7 +22,7 @@ El proyecto se desarrolló utilizando Python, priorizando un enfoque analítico 
 * **Modelado Predictivo:** `Scikit-Learn` (Random Forest Classifier)
 * **Evaluación Financiera:** Análisis de Retorno de Inversión (ROI) sobre estrategias de retención.
 
-## 3. Análisis Exploratorio: Desmitificando la Hipótesis Inicial
+## 🔷 Análisis Exploratorio: Desmitificando la Hipótesis Inicial
 
 Contrario a la creencia de la directiva, el análisis de los datos reveló que la sensibilidad al precio **no** es el motor principal del abandono. Al evaluar el perfil financiero de los clientes, se descubrió que el margen neto de ganancia tiene una relación mucho más directa con la retención.
 
@@ -32,7 +32,7 @@ Contrario a la creencia de la directiva, el análisis de los datos reveló que l
 
 *Insight:* Los clientes que se mantienen en la empresa generan un margen neto promedio significativamente mayor. Implementar un descuento generalizado del 20% (como se propuso inicialmente) afectaría drásticamente la rentabilidad sin solucionar la causa raíz de la fuga.
 
-## 4. Modelado Predictivo y Variables Clave
+## 🔷 Modelado Predictivo y Variables Clave
 
 Se implementó un modelo de Machine Learning (*Random Forest*) para predecir la probabilidad de fuga de cada cliente, logrando aislar las variables más determinantes en la toma de decisiones.
 
@@ -45,7 +45,7 @@ Como lo demuestra el modelo, los factores que verdaderamente impulsan la retenci
 2. La Antigüedad del Cliente (barrera de salida).
 3. Las proyecciones de consumo a futuro.
 
-## 5. Recomendaciones Estratégicas
+## 🔷 Recomendaciones Estratégicas
 
 Con base en los hallazgos técnicos y la evaluación financiera, se emiten las siguientes recomendaciones corporativas:
 
